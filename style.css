@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  border: 1px solid blue;
+  flex-direction: column;
+ 
+}
+
+.inner-div {
+  width: 6vw;
+  height: 6vh;
+  border: 1px purple solid;
+}
+
+.inner-div2 {
+  width: 6vw;
+  height: 6vh;
+  border: 1px purple solid;
+  
+  flex-direction: row;
+}
+
