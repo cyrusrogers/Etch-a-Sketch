@@ -1,21 +1,23 @@
 .container {
   display: flex;
-  border: 1px solid blue;
   flex-direction: column;
- 
+  background-color: white;
+  gap: 5px;
+
 }
 
 .inner-div {
-  width: 6vw;
-  height: 6vh;
-  border: 1px purple solid;
+  display: flex;
+  gap: 5px;
 }
 
 .inner-div2 {
-  width: 6vw;
-  height: 6vh;
-  border: 1px purple solid;
+  background-color: rgb(77, 234, 255);
+  border: 1px solid rgb(25, 0, 255);
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  gap: 5px;
+  padding: 5px;
   
-  flex-direction: row;
 }
-
